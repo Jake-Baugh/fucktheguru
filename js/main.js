@@ -78,7 +78,7 @@
 
                 var obj = $.parseJSON(data);
                 console.log('Success:', obj.FirstName + " " + status);
-                window.location = ('//jordancarter.co.uk/9913-2' + '?username=' + username + '&first_name=' + obj.FirstName + '&last_name=' + obj.LastName + '&url=' + obj.Url)
+                window.location = ('https://www.jordancarter.co.uk/9913-2' + '?username=' + username + '&first_name=' + obj.FirstName + '&last_name=' + obj.LastName + '&url=' + obj.Url)
             },
             error: function (jqXHR) {
 
